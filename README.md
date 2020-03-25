@@ -1,8 +1,8 @@
 # Android-WebView-with-Firebase-Group-Discussion
 
 Project Overview:
-Android Gradle Plugin Version: 3.6.1
-Gradle Version: 5.6.4
+  Android Gradle Plugin Version: 3.6.1
+  Gradle Version: 5.6.4
 
 Changes need to be done:
 1) Add your google-services.json file from Firebase Project
