@@ -28,7 +28,7 @@
 		<activity android:name=".DashboardActivity"></activity>
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5952137753275835~9875113184" />
+            android:value="" />
     </application>
 
 </manifest>
