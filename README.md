@@ -1,8 +1,9 @@
 # Android-WebView-with-Firebase-Group-Discussion
 
 ## Introduction:
-This Project is combination of WebView and Firebase Group Chat.
-You Can View this App at Playstore: [](https://play.google.com/store/apps/details?id=com.blogspot.codingatharva.diplomaincomputersciecne)
+This Project is combination of WebView and Firebase Group Chat.  
+
+You Can View this App at Playstore: [Android App at Google Play Store](https://play.google.com/store/apps/details?id=com.blogspot.codingatharva.diplomaincomputersciecne)
 
 ***
 ## Project Overview:
