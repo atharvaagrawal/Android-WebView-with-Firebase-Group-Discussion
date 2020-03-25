@@ -149,7 +149,7 @@
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView"
                 app:adSize="BANNER"
-                app:adUnitId="ca-app-pub-5952137753275835/1159215417"
+                app:adUnitId=""
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
