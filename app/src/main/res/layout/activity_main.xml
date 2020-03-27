@@ -30,13 +30,12 @@
             android:layout_height="wrap_content"
             android:fillViewport="true">
 
-            // Layout for top
 
-            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
+            <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_width="wrap_content">
 
                 <Button
                     android:id="@+id/prog"
@@ -74,7 +73,7 @@
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"></WebView>
+                    android:layout_alignParentTop="true" />
 
             </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
@@ -92,7 +91,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="0dp"
                 app:adSize="BANNER"
-                app:adUnitId=""></com.google.android.gms.ads.AdView>
+                app:adUnitId="ca-app-pub-5952137753275835/1159215417" />
 
 
         </RelativeLayout>

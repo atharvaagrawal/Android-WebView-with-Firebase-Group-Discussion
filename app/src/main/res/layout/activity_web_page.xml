@@ -8,8 +8,7 @@
     android:fitsSystemWindows="true"
     tools:context=".WebPage">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -19,17 +18,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"></androidx.appcompat.widget.Toolbar>
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
 
             tools:context=".WebPage">
 
-            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="50dp">
@@ -40,7 +37,7 @@
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"></WebView>
+                    android:layout_alignParentTop="true" />
 
                 <ProgressBar
                     android:id="@+id/progressBar"
@@ -50,12 +47,12 @@
                     android:layout_centerInParent="true" />
             </RelativeLayout>
 
-            <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fillViewport="true">
 
-                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="top"
@@ -84,6 +81,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Advanced Java" />
+
                     <Button
                         android:id="@+id/js"
                         android:layout_width="wrap_content"
@@ -133,9 +131,6 @@
                         android:text="DBMS" />
 
 
-
-
-
                     <Button
                         android:id="@+id/mad"
                         android:layout_width="wrap_content"
@@ -146,14 +141,15 @@
                 </LinearLayout>
 
             </HorizontalScrollView>
+
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView"
-                app:adSize="BANNER"
-                app:adUnitId=""
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="0dp"></com.google.android.gms.ads.AdView>
+                android:layout_marginBottom="0dp"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-5952137753275835/1159215417" />
 
         </RelativeLayout>
     </LinearLayout>
